@@ -1,0 +1,31 @@
+image_path,correct_answer,caption_0,caption_1,caption_2,caption_3,correct_answer_template
+images/000000397133.jpg,0,A chair is not present in this image.,"This image shows a chair, but no spoon is present.",A chair is present in this image.,A spoon is not included in this image.,negative
+images/000000397133.jpg,0,No car is present in this image.,"This image features a car, but there is no spoon.",A car is present in this image.,No spoon is visible in this image.,negative
+images/000000037777.jpg,0,A bottle is not shown in this image.,"A bottle is present in this image, but there is no sink.",This image features a bottle,A sink is not included in this image.,negative
+images/000000174482.jpg,0,No person is present in this image.,"This image features a person, but no truck is present.",A person is present in this image.,There is no truck in this image.,negative
+images/000000296649.jpg,0,There is no chair shown in this image.,"The image shows a chair, but there is no truck.",A chair is present in this image.,There is no truck in this image.,negative
+images/000000289393.jpg,0,No person is included in this image.,"A person is present in this image, with no cow in sight.",A person is present in this image.,No cow is visible in this image.,negative
+images/000000017627.jpg,0,There is no chair in this image.,"This image features a chair, with no bus in sight.",This image shows a chair.,A bus is not included in this image.,negative
+images/000000143931.jpg,0,No chair is visible in this image.,"This image features a chair, but there is no bus.",This image shows a chair.,No bus is present in this image.,negative
+images/000000460347.jpg,0,There is no chair in this image.,"This image features a chair, but no car is present.",A chair is present in this image.,No car is present in this image.,negative
+images/000000322864.jpg,0,There is no handbag in this image.,"This image shows a handbag, without a car in sight.",This image shows a handbag.,No car is present in this image.,negative
+images/000000397133.jpg,0,A sink and a spoon are included in this image.,"A car is present in this image, but a sink is not.",This image features a car.,A sink is not present in this image.,positive
+images/000000037777.jpg,0,This image features an orange and a refrigerator.,"This image features a person, but there is no orange.",This image shows a person.,There is no orange in this image.,positive
+images/000000174482.jpg,0,"""This image includes a car and a traffic light."" (this caption was fine and only minor adjustments were made)","This image features a handbag, with no car in sight.",This image shows a handbag.,No car is present in this image.,positive
+images/000000480985.jpg,0,This image features a person and a motorcycle.,"This image features a car, but no person is present.",This image includes a car.,No person is present in this image.,positive
+images/000000331352.jpg,0,This image features both a sink and a toilet.,"This image shows a person, but no sink is included.",This image shows a person.,A sink is not present in this image.,positive
+images/000000296649.jpg,0,This image features a truck and a motorcycle.,"A backpack is present in this image, but there is no truck.",The image shows a backpack.,A truck is not present in this image.,positive
+images/000000386912.jpg,0,This image shows a person and a keyboard.,"This image features a cup, but there is no person.",This image depicts a cup.,There is no person in this image.,positive
+images/000000522713.jpg,0,A person and a boat are present in this image.,"This image features a chair, while a boat is absent.",This image shows a chair,There is no boat in this image.,positive
+images/000000303818.jpg,0,This image features both a person and a car.,"A truck is included in this image, but there is no person.",A truck is present in this image.,There is no person in this image.,positive
+images/000000303818.jpg,0,A bus and a backpack are present in this image.,"This image features a traffic light, but there's no bus.",A traffic light is present in this image.,A bus is not present in this image.,positive
+images/000000397133.jpg,0,"This image features a knife, but no car is present.","A car is present in this image, but there is no knife.",This image features a car,This image does not feature a knife.,hybrid
+images/000000397133.jpg,0,"A person is present in this image, but there's no fork.","This image shows a fork, with no person in sight.",A fork is shown in this image.,No person is present in this image.,hybrid
+images/000000037777.jpg,0,This image contains an oven but no bottle.,This image shows a bottle but lacks an oven.,This image contains a bottle.,No oven is present in this image.,hybrid
+images/000000037777.jpg,0,"A sink is included in this image, while there is no person.","This image shows a person, but does not include a sink.",This image shows a person.,A sink is not present in this image.,hybrid
+images/000000252219.jpg,0,"This image contains a handbag, with no car in sight.","This image features a car, but does not include a handbag.",This image shows a car,A handbag is not included in this image.,hybrid
+images/000000252219.jpg,0,"An umbrella is present, but there is no car.","This image features a car, but an umbrella is nowhere to be seen.",This image shows a car.,There is no umbrella in this image.,hybrid
+images/000000087038.jpg,0,"This image features a skateboard, but there's no chair.","This image features a chair, but no skateboard is present.",A chair is included in this image.,A skateboard is not shown in this image.,hybrid
+images/000000403385.jpg,0,"This image features a toilet, but a cup is nowhere to be seen.","This image includes a cup, but there is no toilet.","""This image contains a cup.""  Sometimes the change is very small.",There is no toilet visible in this image.,hybrid
+images/000000296649.jpg,0,"This image shows a car, with no backpack in sight.","This image features a backpack, but no car is present.",A backpack is visible in this image.,This image does not feature a car.,hybrid
+images/000000386912.jpg,0,"This image shows a tv, with no cup in sight.",This image contains a cup but no tv.,This image shows a cup.,Notably absent from this image is a tv.,hybrid
