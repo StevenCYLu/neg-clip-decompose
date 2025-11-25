@@ -1,7 +1,3 @@
-Here is the updated `README.md` with a new section dedicated to the Energy-Based Model (EBM) interpretation of the embedding arithmetic.
-
------
-
 # CLIP Negation Decomposition
 
 Evaluation script for testing CLIP's handling of negated prompts using **negation decomposition**.
