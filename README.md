@@ -23,7 +23,7 @@ $$S(I, T) = -E(I, T) = \vec{v}_I \cdot \vec{v}_T$$
 
 Where a higher score indicates higher compatibility.
 
-When we decompose a prompt like "A dog and no grass" into a positive component ($\vec{v}_{pos}$) and a negative component ($\vec{v}_{neg}$), we aim to find an image that has **high compatibility with the positive** and **low compatibility with the negative**.
+When we decompose a prompt like "A dog and no grass" into a positive component ($\vec{v}\_{pos}$) and a negative component ($\vec{v}\_{neg}$), we aim to find an image that has **high compatibility with the positive** and **low compatibility with the negative**.
 
 Mathematically, we construct a composite score:
 
