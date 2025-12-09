@@ -60,7 +60,7 @@ The script will output accuracy metrics broken down by question type (positive, 
 
 ## Dataset
 
-The evaluation uses 30 samples from `eval_simple_data/mcq_simple.csv`:
+For demonstration purposes, this repository includes 30 simplified samples from `eval_simple_data/mcq_simple.csv`:
 
   - 10 negative templates (e.g., "a dog and no grass")
   - 10 positive templates (e.g., "a dog and grass")
@@ -68,9 +68,28 @@ The evaluation uses 30 samples from `eval_simple_data/mcq_simple.csv`:
 
 Sample images are included in `eval_simple_data/images/`.
 
+**Note:** The results shown below are computed on the full NegBench COCO evaluation dataset. We only provide these 10 simple images in this repository for simplification and quick testing.
+
 ## Output
 
-The script displays:
+The script displays overall accuracy and accuracy broken down by the type of correct answer:
 
-  - **Overall accuracy**: Accuracy across all 30 samples
-  - **Accuracy by template type**: Breakdown for positive, negative, and hybrid questions
+  - **Overall accuracy**: Accuracy across all samples
+  - **Positive accuracy**: Accuracy when the correct answer contains only positive concepts
+  - **Negative accuracy**: Accuracy when the correct answer contains only negative concepts
+  - **Hybrid accuracy**: Accuracy when the correct answer contains both positive and negative concepts
+
+Note: Each MCQ can have various answer choices, but these metrics are categorized based on what type the correct answer is.
+
+### Results with Alpha = 2.0
+
+The following results are computed on the **NegBench COCO full evaluation dataset**:
+
+| Metric | Value |
+|--------|-------|
+| Overall Accuracy | 52.35% |
+| Total Samples | 5914 |
+| Correct Predictions | 3096 |
+| Positive Accuracy | 85.24% |
+| Negative Accuracy | 14.06% |
+| Hybrid Accuracy | 54.72% |
